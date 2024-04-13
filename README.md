@@ -1,5 +1,7 @@
 ## Yi Cookies Cleaner Extension
 
+Yi Cookies Cleaner simplifies data management for developers, providing a seamless solution to clear cookies and site data. With customizable settings, developers can tailor privacy preferences effortlessly. Experience instant feedback and smooth navigation, ensuring a hassle-free browsing experience. Download Yi Cookies Cleaner now to streamline your development process and enhance user privacy and security.
+
 ### Key Features:
 
 - **Effortless Data Management:** Quickly clear cookies and site data with a single click for a cleaner browsing experience.
