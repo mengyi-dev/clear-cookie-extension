@@ -1,13 +1,18 @@
-# Yi Cookie Cleaner Chrome Extension
+## Yi Cookies Cleaner Extension
 
-The **Yi Cookie Cleaner** Chrome Extension is a lightweight tool designed to help users quickly clear their cookies and site data with just a single click. It offers the following features:
+### Key Features:
 
-1. **One-Click Cleaning:** Easily clear cookies and site data with just one click on the extension icon.
+- **Effortless Data Management:** Quickly clear cookies and site data with a single click for a cleaner browsing experience.
+  
+- **Customized Clearance:** Choose which site data to remove, tailoring your privacy preferences.
+  
+- **Instant Feedback:** Visual cues indicate successful data clearance, keeping you informed.
+  
+- **User-Friendly Interface:** Intuitive design for seamless navigation and hassle-free data management.
+  
+- **Privacy and Security:** Enhance online security by regularly clearing site data to maintain privacy.
+  
+- **Fast and Lightweight:** Optimized performance ensures smooth operation without slowing down your browsing.
+  
+- **Customizable Settings:** Personalize Yi Cookies Cleaner to suit your browsing needs.
 
-2. **Visual Feedback:** Receive visual feedback on successful data clearance with a temporary success icon.
-
-3. **Automatic Browser Reload:** Automatically reload the browser after clearing cookies and site data to ensure a fresh browsing experience.
-
-4. **Minimalist Design:** Simple and intuitive interface for a seamless user experience.
-
-This extension is perfect for users who value privacy and want to maintain a clean browsing environment. Try it out today and take control of your online data!
