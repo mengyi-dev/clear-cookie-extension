@@ -1,7 +1,16 @@
 // Listen for clicks on the extension icon
 chrome.action.onClicked.addListener((tab) => {
-  // Function to clear cookies and site data
-  chrome.browsingData.remove({}, {
+  // Get the current tab's URL
+  const currentUrl = tab.url;
+
+  // Extract the origin (domain) from the URL
+  const urlObject = new URL(currentUrl);
+  const origin = urlObject.origin;
+
+  // Function to clear cookies and site data for the current website
+  chrome.browsingData.remove({
+    "origins": [origin]
+  }, {
     "cookies": true,
     "localStorage": true,
     "indexedDB": true,
@@ -12,16 +21,14 @@ chrome.action.onClicked.addListener((tab) => {
     // Change the extension icon to the success icon
     chrome.action.setIcon({ path: "success-icon.png" });
 
-    // After 1 seconds, change the extension icon back to the default icon
+    // After 1 second, change the extension icon back to the default icon
     setTimeout(function() {
       chrome.action.setIcon({ path: "icon.png" });
-    }, 2001);
+    }, 2000);
 
-    // Reload the browser after 1 seconds
+    // Reload the browser after 1 second
     setTimeout(function() {
-      chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
-        chrome.tabs.reload(tabs[0].id);
-      });
+      chrome.tabs.reload(tab.id);
     }, 1000);
   });
 });
