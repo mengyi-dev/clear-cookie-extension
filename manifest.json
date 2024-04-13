@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Yi Cookie Cleaner",
-  "description": "This extension is perfect for users who value privacy and want to maintain a clean browsing environment. Try it out today and take control of your online data!",
+  "description": "This extension is perfect for users who value privacy and want to maintain a clean browsing environment.",
   "version": "1.0",
   "permissions": ["browsingData"],
   "icons": {
