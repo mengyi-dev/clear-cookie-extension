@@ -3,7 +3,7 @@
   "name": "Yi Cookie Cleaner",
   "description": "This extension is perfect for users who value privacy and want to maintain a clean browsing environment.",
   "version": "1.0",
-  "permissions": ["browsingData"],
+  "permissions": ["cookies", "storage", "activeTab", "browsingData"],
   "icons": {
     "48": "icon.png",
     "128": "success-icon.png"
