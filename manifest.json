@@ -3,7 +3,7 @@
   "name": "Yi Cookie Cleaner",
   "description": "Simplifies data management for developers, providing a seamless solution to clear cookies and site data.",
   "version": "1.0",
-  "permissions": ["cookies", "storage", "activeTab", "browsingData"],
+  "permissions": ["activeTab", "browsingData"],
   "icons": {
     "48": "icon.png",
     "128": "success-icon.png"
