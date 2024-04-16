@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Yi Cookie Cleaner",
+  "name": "Yi Cookies Cleaner",
   "description": "Simplifies data management for developers, providing a seamless solution to clear cookies and site data.",
   "version": "1.0",
   "permissions": ["activeTab", "browsingData"],
